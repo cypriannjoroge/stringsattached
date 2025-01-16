@@ -68,9 +68,17 @@ https://templatemo.com/tm-591-villa-agency
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo" style="height: auto; width: auto;">
+                    <a href="index.html" class="logo" style="height: auto; width: auto;" id="logo">
                         <h1>STRINGS_ATTACHED</h1>
                     </a>
+                    <style>
+                      /* Hide the logo on small screens */
+                      @media (max-width: 768px) {
+                          #logo {
+                              display: none;
+                          }
+                      }
+                  </style>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
@@ -108,11 +116,6 @@ https://templatemo.com/tm-591-villa-agency
   <div class="section properties">
     <div class="container">
       <ul class="properties-filter">
-        <!-- <li style="transition: transform 0.3s ease, background-color 0.3s ease;" 
-        onmouseover="this.style.transform='scale(1.05)'; this.style.backgroundColor='#f0f0f0';" 
-        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='';">
-          <a class="is_active" href="#!" data-filter="*">SHOW ALL</a>
-        </li> -->
         <li style="transition: transform 0.3s ease, background-color 0.3s ease;" 
         onmouseover="this.style.transform='scale(1.05)'; this.style.backgroundColor='#f0f0f0';" 
         onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='';">
